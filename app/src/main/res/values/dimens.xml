@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="h1Size">20sp</dimen>
+    <dimen name="smallPadding">8dp</dimen>
+    <dimen name="defaultMargin">16dp</dimen>
+    <dimen name="contentSize">14sp</dimen>
+</resources>

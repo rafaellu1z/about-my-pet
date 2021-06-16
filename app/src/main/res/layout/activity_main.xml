@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/petName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/text_pet_name"
+        android:layout_margin="@dimen/defaultMargin"
+        android:fontFamily="@font/acme"
+        android:includeFontPadding="false"
+        android:padding="@dimen/smallPadding"
+        android:text="@string/pet_name"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/imageViewContentDescription"
+        tools:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/petDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/text_pet_description"
+            android:layout_margin="@dimen/defaultMargin"
+            android:fontFamily="@font/acme"
+            android:includeFontPadding="false"
+            android:padding="@dimen/contentSize"
+            android:text="@string/pet_description"
+            android:textAlignment="center"/>
+    </ScrollView>
+
+</LinearLayout>
